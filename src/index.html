@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title></title>
+    <link href="css/mui.min.css" rel="stylesheet"/>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<header class="mui-bar mui-bar-nav">
+		<h1 class="mui-title">hupu</h1>
+	</header>
+	<div class="mui-content">
+		<div class="mui-slider">
+		<div class="mui-slider-group mui-slider-loop">
+		<!--支持循环，需要重复图片节点-->
+		<div class="mui-slider-item mui-slider-item-duplicate"><a href="#"><img src="images/img4.jpg" /></a></div>
+		<div class="mui-slider-item"><a href="#"><img src="images/img1.jpg" /></a></div>
+		<div class="mui-slider-item"><a href="#"><img src="images/img2.jpg" /></a></div>
+		<div class="mui-slider-item"><a href="#"><img src="images/img3.jpg" /></a></div>
+		<div class="mui-slider-item"><a href="#"><img src="images/img4.jpg" /></a></div>
+		<!--支持循环，需要重复图片节点-->
+		<div class="mui-slider-item mui-slider-item-duplicate"><a href="#"><img src="images/img1.jpg" /></a></div>
+	</div>
+	</div>
+	<ul class="mui-table-view">
+		<li class="mui-table-view-cell mui-media">
+			<a href="javascript:;">
+				<img class="mui-media-object mui-pull-left" src="images/img1.jpg">
+				<div class="mui-media-body">
+					NBA
+					<p class="mui-ellipsis">终点站！洛维茨基最后一站得到20分10篮板</p>
+				</div>
+			</a>
+		</li>
+		<li class="mui-table-view-cell mui-media">
+			<a href="javascript:;">
+				<img class="mui-media-object mui-pull-left" src="images/img2.jpg">
+				<div class="mui-media-body">
+					NBA
+					<p class="mui-ellipsis">终点站！洛维茨基最后一站得到20分10篮板</p>
+				</div>
+			</a>
+		</li>
+		<li class="mui-table-view-cell mui-media">
+			<a href="javascript:;">
+				<img class="mui-media-object mui-pull-left" src="images/img3.jpg">
+				<div class="mui-media-body">
+					NBA
+					<p class="mui-ellipsis">终点站！洛维茨基最后一站得到20分10篮板</p>
+				</div>
+			</a>
+		</li>
+		<li class="mui-table-view-cell mui-media">
+			<a href="javascript:;">
+				<img class="mui-media-object mui-pull-left" src="images/img4.jpg">
+				<div class="mui-media-body">
+					NBA
+					<p class="mui-ellipsis">终点站！洛维茨基最后一站得到20分10篮板</p>
+				</div>
+			</a>
+		</li>
+	</ul>
+	</div>
+	<script src="js/mui.min.js"></script>
+	<script type="text/javascript" charset="utf-8">
+	  	mui.init();
+	</script>
+	<script>
+		var gallery = mui('.mui-slider');
+		gallery.slider({
+		interval:1000//自动轮播周期，若为0则不自动播放，默认为0；
+		});
+		
+	</script>
+</body>
+</html>
